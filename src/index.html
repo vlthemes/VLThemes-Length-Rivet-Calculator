@@ -29,15 +29,28 @@
 		<div class="vlt-rivet-calculator__values text-center">
 			<div class="container">
 				<div class="vlt-rivet-calculator__field">
-					<label for="width">The thickness of the bonded parts:</label>
+					<label for="thickness">The thickness of the bonded parts <small>(in mm)</small>:</label>
 					<input name="thickness" type="number" min="0" max="10000" value="0">
 				</div>
+
 				<div class="vlt-rivet-calculator__field">
-					<label for="height">Rivet diameter:</label>
-					<input name="diameter" type="number" min="0" max="10000" value="0">
+					<label for="diameter">Rivet diameter <small>(in mm)</small>:</label>
+					<select name="diameter">
+						<option value="2.4" selected="selected">2.4</option>
+						<option value="3">3</option>
+						<option value="3.2">3.2</option>
+						<option value="4">4</option>
+						<option value="4.8">4.8</option>
+						<option value="5">5</option>
+						<option value="5.2">5.2</option>
+						<option value="6">6</option>
+						<option value="6.4">6.4</option>
+						<option value="6.5">6.5</option>
+						<option value="9.7">9.7</option>
+					</select>
 				</div>
 				<div class="vlt-rivet-calculator__field">
-					<label for="height">Rivet length:</label>
+					<label for="height">Rivet length <small>(in mm)</small>:</label>
 					<input name="length" type="number" min="0" max="10000" value="0" disabled>
 				</div>
 			</div>
