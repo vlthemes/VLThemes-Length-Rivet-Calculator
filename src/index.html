@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>LRC - Length Rivet Calculator</title>
+	<meta name="description"
+		content="Online calculator for calculating the length of the rivet using a simple mathematical formula depending on the thickness of the parts to be fastened and the diameter of the rivet.">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/jpg" href="assets/img/favicon.jpg">
+	<link href="assets/css/normalize.css" rel="stylesheet">
+	<link href="assets/css/grid.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="vlt-rivet-calculator">
+
+		<div class="vlt-rivet-calculator__title text-center">
+			<div class="container">
+				<h1>Calculation of the Rivet Length</h1>
+				<p>Powered by <a href="https://vlthemes.me">VLThemes</a></p>
+			</div>
+		</div>
+		<!-- /.vlt-rivet-calculator__title -->
+
+		<div class="vlt-rivet-calculator__values text-center">
+			<div class="container">
+				<div class="vlt-rivet-calculator__field">
+					<label for="width">The thickness of the bonded parts:</label>
+					<input name="thickness" type="number" min="0" max="10000" value="0">
+				</div>
+				<div class="vlt-rivet-calculator__field">
+					<label for="height">Rivet diameter:</label>
+					<input name="diameter" type="number" min="0" max="10000" value="0">
+				</div>
+				<div class="vlt-rivet-calculator__field">
+					<label for="height">Rivet length:</label>
+					<input name="length" type="number" min="0" max="10000" value="0" disabled>
+				</div>
+			</div>
+		</div>
+		<!-- /.vlt-rivet-calculator__values -->
+
+	</div>
+	<!-- /.vlt-rivet-calculator -->
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
